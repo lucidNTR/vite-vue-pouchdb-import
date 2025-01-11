@@ -6,4 +6,6 @@ import Pouch from 'pouchdb-browser';
 
 createApp(App).mount('#app');
 
-// const db = new PouchDB('kittens');
+const db = new Pouch('kittens');
+
+console.log(db)
